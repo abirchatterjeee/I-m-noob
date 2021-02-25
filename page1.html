@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>page-1</title>
+  <style>
+   body {
+      height: 400px;
+      background: linear-gradient(to right, #33ccff 0%, #ff6699 100%)
+  }
+  </style>
+  <link rel="stylesheet" href="p1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#a1").click(function(){
+    $("#p1,#a2").slideDown("slow");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#a2").click(function(){
+    $("#p2,#a3").slideDown("slow");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#a3").click(function(){
+    $("#p3,#a4").slideDown("slow");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#a4").click(function(){
+    $("#p4,#a5").slideDown("slow");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#a5").click(function(){
+    $("#p5,#a6").slideDown("slow");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#a6").click(function(){
+    $("#p6,#a7").slideDown("slow");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#a7").click(function(){
+    $("#p7,#a8,#bt").slideDown("slow");
+  });
+});
+</script>
+
+</head>
+<body>
+  <table style="width:90%" style="text-align: center;">
+   <tr>
+     <th>Freshers in Programing</th>
+     <th>Samuel Miller</th>
+  </table>
+<div id="a1"><button type="button" name="button">Start</button> </div>
+<div id="p1">Freshers : I love programing.</div>
+
+<div id="a2"><button type="button" name="button">Next</button> </div>
+<div id="p2">Samuel Miller : I f***ing hate programing.</div>
+
+<div id="a3"><button type="button" name="button">next</button> </div>
+<div id="p3">Freshers : Coding is easy . I want to dive into it .</div>
+
+<div id="a4"><button type="button" name="button">Next</button> </div>
+<div id="p4">Samuel Miller : yaa yaa it is...But a **s hole.</div>
+
+<div id="a5"><button type="button" name="button">Next</button> </div>
+<div id="p5">Freshers : Now I can make my own website and app.</div>
+
+<div id="a6"><button type="button" name="button">Next</button> </div>
+<div id="p6">Samuel Miller : ......zzzzz(skip) </div>
+
+<div id="a7"><button type="button" name="button">next</button> </div>
+<div id="p7">Freshers : Now I feel like I m hacker . .</div>
+<div id="bt"><a id="bt" href="page2.html"> <button type="button" name="button">Next</button> </a></div>
+
+</body>
+</html>
